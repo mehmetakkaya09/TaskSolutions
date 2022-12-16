@@ -92,6 +92,7 @@ public class Animal {
         System.out.println(name +" "+ breed + " is eating ");
     }
 
+
     public String toString() {
         return "Animal{" +
                 "name='" + name + '\'' +
