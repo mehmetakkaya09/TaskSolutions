@@ -41,16 +41,16 @@ public class Animal {
     }
 
     public void setName(String name) {
-        if (name.equals("")){
-            System.out.println("Invalid Name");
+        if (name.equals("") || name.equals(" ") || name == null){
+            System.out.println("Invalid Color");
             return;
         }
         this.name = name;
     }
 
     public void setBreed(String breed) {
-        if (breed.equals("")){
-            System.out.println("Invalid Breed");
+        if (breed.equals("") || breed.equals(" ") || breed == null){
+            System.out.println("Invalid Color");
             return;
         }
         this.breed = breed;
@@ -81,7 +81,7 @@ public class Animal {
     }
 
     public void setColor(String color) {
-        if (color.equals("")){
+        if (color.equals("") || color.equals(" ") || color == null){
             System.out.println("Invalid Color");
             return;
         }
