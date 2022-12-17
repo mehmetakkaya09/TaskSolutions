@@ -91,6 +91,15 @@ public class Animal {
     public void eat(){
         System.out.println(name +" "+ breed + " is eating ");
     }
+    public void drink(){
+        System.out.println(name +" "+ breed + " is drinking ");
+    }
+    public void sleep(){
+        System.out.println(name +" "+ breed + " is sleeping ");
+    }
+    public void move(){
+        System.out.println(name +" "+ breed + " is moving ");
+    }
 
 
     public String toString() {
