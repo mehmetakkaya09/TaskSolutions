@@ -3,9 +3,12 @@ package overloading.animal;
 public class Main {
 
     public static void main(String[] args) {
-        Cat cat1 = new Cat("Pamuk","Tekir",10,'m',"Medium","Gray");
+        Cat cat1 = new Cat("Pamuk","Tekir",10,'m',"Medium","Gray",false,true,true);
         System.out.println(cat1);
         cat1.eat();
+        Tiger tiger = new Tiger("çaça","bengal",5,'f',"large","black-yellow",true,false,false);
+        System.out.println(tiger);
+        tiger.hunt();
     }
 }
 

@@ -1,7 +1,7 @@
 package overloading.animal;
 
 public class FriendlyAnimal extends Animal {
-    private boolean isWild, isFriendly, isPlayable;
+    public boolean isWild, isFriendly, isPlayable;
 
     public FriendlyAnimal(String name, String breed, int age, char gender, String size, String color, boolean isWild, boolean isFriendly, boolean isPlayable) {
         super(name, breed, age, gender, size, color);

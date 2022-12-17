@@ -1,18 +1,16 @@
 package overloading.animal;
 
-public class Dog extends FriendlyAnimal{
-    public Dog(String name, String breed, int age, char gender, String size, String color, boolean isWild, boolean isFriendly, boolean isPlayable) {
+public class Tiger extends WildAnimal{
+    public Tiger(String name, String breed, int age, char gender, String size, String color, boolean isWild, boolean isFriendly, boolean isPlayable) {
         super(name, breed, age, gender, size, color, isWild, isFriendly, isPlayable);
     }
 
     @Override
-    public void eat() {
-        System.out.println(getBreed()+getName()+" is eating bone");
+    public void hunt() {
+        System.out.println(getBreed()+" "+getName()+" is hunting deer");
     }
-
-    @Override
     public String toString() {
-        return "Dog{" +
+        return "Tiger{" +
                 "name='" + getName() + '\'' +
                 ", breed='" + getBreed() + '\'' +
                 ", age=" + getAge() +
