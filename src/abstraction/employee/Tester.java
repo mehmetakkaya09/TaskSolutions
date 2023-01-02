@@ -1,4 +1,4 @@
-package abstraction;
+package abstraction.employee;
 
 public class Tester extends Employee{
 

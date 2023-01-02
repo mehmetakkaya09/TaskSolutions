@@ -1,4 +1,4 @@
-package abstraction;
+package abstraction.employee;
 
 public abstract class Person {
 

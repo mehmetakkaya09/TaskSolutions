@@ -1,4 +1,4 @@
-package abstraction;
+package abstraction.employee;
 
 public abstract class Employee extends Person{
     private final int id;
