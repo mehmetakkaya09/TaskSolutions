@@ -78,7 +78,7 @@ public abstract class Device {
 
 
     public String toString() {
-        return "Device{" +
+        return getClass().getSimpleName() + "{" +
                 "brand='" + brand + '\'' +
                 ", model='" + model + '\'' +
                 ", price=" + price +
