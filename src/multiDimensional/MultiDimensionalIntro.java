@@ -1,7 +1,7 @@
 package multiDimensional;
 
 
-public interface MultiDimensionalIntro {
+public class MultiDimensionalIntro {
     public static void main(String[] args) {
         int[] nums1 = {1,2,3};
         int[] nums2 = {4,5,6};

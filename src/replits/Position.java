@@ -14,7 +14,7 @@ public class Position {
         }else
             System.out.println(exists);
 
-
+scan.close();
 
     }
 }

@@ -26,5 +26,6 @@ public class Diving {
         }
         sum *= rating * 0.6;
         System.out.println(sum);
+        input.close();
     }
 }

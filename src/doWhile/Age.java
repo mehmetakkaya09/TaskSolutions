@@ -19,5 +19,6 @@ public class Age {
             System.out.println("please enter your citizen");
             yesNo = scan.next();
         }
+        scan.close();
     }
 }

@@ -29,7 +29,7 @@ public class Task {
         }else if (l3 < 4) {
             System.out.println(sentence);
         }
-
+        input.close();
 
     }
 }

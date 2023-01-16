@@ -12,6 +12,7 @@ public class UniqueNumbers {
             nums[i] = scan.nextInt();
         }
         printUniqueNumbers(nums);
+        scan.close();
     }
 
     public static void printUniqueNumbers(int[] nums){
@@ -25,6 +26,7 @@ public class UniqueNumbers {
             if (count == 1)
                 System.out.println(nums[i]);
         }
+
     }
 
 }

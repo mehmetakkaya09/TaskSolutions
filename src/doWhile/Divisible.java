@@ -10,7 +10,7 @@ public class Divisible {
         while ((number % 3 == 0) && number > 0){
         }
         String g = "5";
-
+scanner.close();
     }
 }
 /*

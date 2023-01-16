@@ -15,6 +15,6 @@ public class Alejandro {
             System.out.println("don't read");
         }
 
-
+s.close();
     }
 }

@@ -34,5 +34,6 @@ public class ShoppingList {
         System.out.println("SHOPPING LIST:");
         System.out.print(list);
         System.out.println("Total cost: $"+total);
+        scanner.close();
     }
 }

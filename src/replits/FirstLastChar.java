@@ -20,6 +20,6 @@ public class FirstLastChar {
             temp[j] = arr[i];
         }
         System.out.println(Arrays.toString(temp));
-
+        input.close();
     }
 }

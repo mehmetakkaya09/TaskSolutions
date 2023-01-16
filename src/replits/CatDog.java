@@ -21,7 +21,7 @@ public class CatDog {
             }
         }
         System.out.println(catCount == dogCount);
-
+scan.close();
 
 
     }

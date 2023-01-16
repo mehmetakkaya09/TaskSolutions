@@ -13,6 +13,6 @@ public class Longest {
     }else if (word2.length() >word1.length()){
         System.out.println(word2);
     }
-
+scan.close();
     }
 }

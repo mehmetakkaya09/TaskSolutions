@@ -22,6 +22,6 @@ public class Merge {
             System.out.println("cannot merge");
 
 
-
+scan.close();
     }
 }

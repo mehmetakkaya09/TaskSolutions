@@ -23,6 +23,7 @@ public class EmailTask1 {
             System.out.println(email);
         }
         System.out.println(result);
+        input.close();
     }
 }
 /* 7. Create a class calledEmailTask1.

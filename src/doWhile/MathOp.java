@@ -24,7 +24,7 @@ public class MathOp {
         }else if (oper == '*') {
             System.out.println(num1 * num2);
         }
-
+scan.close();
     }
 }
 /*

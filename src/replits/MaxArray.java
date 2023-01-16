@@ -13,6 +13,6 @@ public class MaxArray {
         }
         System.out.println(max);
 
-
+        input.close();
     }
 }

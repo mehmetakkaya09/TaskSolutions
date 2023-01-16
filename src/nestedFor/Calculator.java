@@ -47,7 +47,7 @@ public class Calculator {
 
         }
         System.out.println("Thanks for using Cydeo calculator!");
-
+        input.close();
     }
 }
 /*

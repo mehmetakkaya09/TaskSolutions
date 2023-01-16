@@ -14,7 +14,7 @@ public class Half {
             str+= ""+word.charAt(i);
         }
         System.out.println(str);
-
+scan.close();
 
     }
 }

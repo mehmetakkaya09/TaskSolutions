@@ -42,6 +42,7 @@ public class efdsfs {
             System.out.println("Your ticket is booked to " + arrival + ". We have charged extra for the " + bag + " bags but you are traveling with " + number +
                     " so we are giving a discount. Your total cost is " + currentCost);
         }
+        scan.close();
     }
 }
 

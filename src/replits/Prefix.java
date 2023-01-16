@@ -23,7 +23,7 @@ public class Prefix {
             System.out.println(true);
         }else
             System.out.println(false);
-
+scan.close();
 
 
     }

@@ -15,5 +15,6 @@ public class Married {
             System.out.println("congrats");
         }else
             System.out.println("goodbye ");
+        scanner.close();
     }
 }

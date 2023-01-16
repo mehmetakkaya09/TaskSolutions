@@ -20,7 +20,7 @@ public class HowManyPeople {
         }else {
             System.out.println("Invalid Number");
         }
-
+        input.close();
     }
 }
 /*

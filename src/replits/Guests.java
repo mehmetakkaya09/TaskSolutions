@@ -20,5 +20,6 @@ public class Guests {
             yesNo = input.next();
         }
         System.out.println("Guests' list: " + list.substring(0,list.length()-2));
+        input.close();
     }
 }

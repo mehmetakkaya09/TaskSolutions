@@ -23,5 +23,6 @@ public class LogIn {
             System.out.println("welcome");
         }else
             System.out.println("your account is locked!");
+        scanner.close();
     }
 }

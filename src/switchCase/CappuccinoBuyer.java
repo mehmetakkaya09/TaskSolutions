@@ -30,6 +30,7 @@ public class CappuccinoBuyer {
         } else {
             System.out.println("Invalid Size");
         }
+        scan.close();
     }
 }
 

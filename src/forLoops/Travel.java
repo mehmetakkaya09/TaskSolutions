@@ -52,6 +52,6 @@ public class Travel {
             System.out.println("Looks like your password has been expired for "+expire+" years, but not to worry we will get it ready for you to travel to "+Country+". Your total cost has come out to "+renewal);
 
         }
-
+inp.close();
     }
 }

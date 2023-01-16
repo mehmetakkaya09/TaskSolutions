@@ -94,5 +94,6 @@ public class StringMethods {
         String degis3 = input.next();
         degis2 = degis3;
         System.out.println("mehmet.akkaya@" +degis3+ ".com");
+        input.close();
     }
 }

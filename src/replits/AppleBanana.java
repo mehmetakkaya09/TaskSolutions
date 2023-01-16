@@ -21,7 +21,7 @@ public class AppleBanana {
             System.out.println();
 
         }
-
+        input.close();
 
     }
 }

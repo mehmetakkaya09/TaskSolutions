@@ -21,6 +21,7 @@ public class SumChar {
 
         }
         System.out.println("sum = " + sum);
+        inp.close();
     }
 }
 /*

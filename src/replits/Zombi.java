@@ -20,6 +20,6 @@ public class Zombi {
         }
         System.out.println("---- EXTINCT ----");
 
-
+scan.close();
     }
 }

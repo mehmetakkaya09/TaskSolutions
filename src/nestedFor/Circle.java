@@ -34,5 +34,6 @@ public class Circle {
             }
 
         }
+        scan.close();
     }
 }

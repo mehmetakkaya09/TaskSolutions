@@ -17,7 +17,7 @@ public class Sandwich {
 
         }else
             System.out.println("nothing");
-
+scan.close();
 
     }
 }

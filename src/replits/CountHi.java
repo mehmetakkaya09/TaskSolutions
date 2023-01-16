@@ -15,7 +15,7 @@ public class CountHi {
         }
         System.out.println(count);
 
-
+scan.close();
 
     }
 }

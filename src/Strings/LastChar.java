@@ -14,6 +14,7 @@ public class LastChar {
             result = word + word2.substring(1);
         }
         System.out.println(result);
+        input.close();
     }
 }
 /*

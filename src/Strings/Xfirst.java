@@ -8,7 +8,7 @@ public class Xfirst {
         System.out.println("name : ");
         String name = input.nextLine();
         System.out.println(name.substring(0,1).toUpperCase() + name.substring(1));
-
+        input.close();
     }
 }
 

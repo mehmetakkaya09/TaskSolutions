@@ -14,5 +14,6 @@ public class Multiply {
         System.out.println(num1 * num2);
         }else
             System.out.println("invalid");
+        scan.close();
     }
 }

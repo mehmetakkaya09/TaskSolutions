@@ -15,6 +15,7 @@ public class Numbers {
         } else if (lng <= 3) {
             System.out.println(snt);
         }
+        inp.close();
     }
 }
 /*

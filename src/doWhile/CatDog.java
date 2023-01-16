@@ -21,5 +21,6 @@ public class CatDog {
             System.out.println("numbers are equal");
         }else
             System.out.println("not equal");
+        scanner.close();
     }
 }

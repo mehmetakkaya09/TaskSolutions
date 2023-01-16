@@ -13,6 +13,7 @@ public class Summ {
             sum += i;
         }
         System.out.println("Summary of Numbers : " + sum);
+        inp.close();
     }
 }
 /*

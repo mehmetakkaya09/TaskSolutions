@@ -9,7 +9,7 @@ public class FirstLast {
 
         System.out.println("without first letter: "+ word.substring(1));
         System.out.println("without last letter: "+ word.substring(0,word.length()-1));
-
+        scan.close();
 
 
     }

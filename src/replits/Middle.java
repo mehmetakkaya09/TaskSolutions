@@ -13,6 +13,6 @@ public class Middle {
         }else
             System.out.println(word.charAt(middle));
 
-
+scan.close();
     }
 }

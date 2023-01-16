@@ -13,5 +13,6 @@ public class Triples {
             }
         }
         System.out.println(count);
+        scan.close();
     }
 }

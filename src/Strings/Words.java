@@ -12,7 +12,7 @@ public class Words {
         String sonuc1 = word1.substring(1);
         String sonuc2 = word2.substring(1);
         System.out.println(sonuc1+sonuc2);
-
+        input.close();
     }
 }
 

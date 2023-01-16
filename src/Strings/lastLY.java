@@ -52,6 +52,7 @@ public class lastLY {
             System.out.println(cyb.charAt(i));
 
         }
+        input.close();
     }
 }
 /*

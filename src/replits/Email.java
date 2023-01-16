@@ -17,7 +17,7 @@ public class Email {
         System.out.println(lastName);
         System.out.println(domain);
 
-
+scan.close();
 
     }
 }

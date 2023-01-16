@@ -19,6 +19,7 @@ public class Multiply11 {
 
         }else
             System.out.println("invalid");
+        scan.close();
     }
 }
 /*

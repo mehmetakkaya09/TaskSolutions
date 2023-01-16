@@ -23,5 +23,6 @@ public class HighestFrequency {
             }
         }
         System.out.println(res);
+        scanner.close();
     }
 }

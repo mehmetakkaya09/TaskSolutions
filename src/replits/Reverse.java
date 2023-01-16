@@ -19,6 +19,6 @@ public class Reverse {
             System.out.println(str);
         }
 
-
+scan.close();
     }
 }

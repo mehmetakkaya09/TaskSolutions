@@ -17,6 +17,7 @@ public class Repeat {
             }
         }
         System.out.println(sum);
+        scan.close();
     }
 }
 /*

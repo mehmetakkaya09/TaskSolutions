@@ -32,7 +32,7 @@ public class Xfirst {
             System.out.println(word);
         }else
             System.out.println(word);
-
+scan.close();
 
     }
 }

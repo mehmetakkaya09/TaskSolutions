@@ -25,7 +25,7 @@ public class Elevator {
             System.out.println("Invalid Floor");
         }
 
-
+scan.close();
     }
 }
 

@@ -10,5 +10,6 @@ public class Burger {
             System.out.println("Your total is $9.75");
         } else
             System.out.println("Your total is $12.50");
+        s.close();
     }
 }

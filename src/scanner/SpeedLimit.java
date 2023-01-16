@@ -14,7 +14,7 @@ public class SpeedLimit {
 
         }
 
-
+scan.close();
     }
 }
 /*

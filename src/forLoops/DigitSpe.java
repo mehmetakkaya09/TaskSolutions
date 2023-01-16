@@ -23,5 +23,6 @@ public class DigitSpe {
         System.out.println(digits);
         System.out.println(letters);
         System.out.println(special);
+        inp.close();
     }
 }

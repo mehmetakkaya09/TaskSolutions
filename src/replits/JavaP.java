@@ -28,6 +28,6 @@ public class JavaP {
         }else
             System.out.println(true);
 
-
+scan.close();
     }
 }
